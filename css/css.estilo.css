@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contenedor{
+    width: 100%;
+    max-width:1170px;
+    margin: auto;
+}
+
+/*CABECERA*/
+
+header{
+    width: 100%;
+    height: 200px;
+    background-color:#008B8B;
+}
+
+.logo{
+    padding: 25px 0;
+
+}
+
+.logo img{
+    width: 100px;
+    display:block;
+    margin: auto;
+}
+
+.menu{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+
+    justify-content: space-between;
+    max-width: 430px;
+    margin: auto;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #ffff00;
+    
+    font-size: 18px;
+}
+
+.menu a:hover{
+    color: #cd8532;
+}
+
+/*FIN DE CABECERA*/
+
+/*BANNER PRINCIPAL*/
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagen/cafe.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.banner > div{
+    widows: 100%;
+    height: 100%;
+    background-color: rgba(209, 219, 189,0.2);
+
+}
+
+.accion{
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+}
+
+.accion p{
+   font-size: 18px;
+   color: white;
+   margin-bottom:40px;
+
+}
+
+.accion h2{
+    font: size 42px;
+    color: white;
+    width: 100%;
+    padding: 45px 0;
+    background-color: rgba(255, 255,255, 0.4);
+    max-width: 470px;
+    
+
+}
+
+.accion a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+    background-color: rgba(0,0,0,0.4);
+    margin-top: 35px;
+}
+
+.accion a:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+/*FIN DE BANNER*/
+
+/*SECCION BIENVENIDA*/
+.bienvenida{
+    width: 100%;
+    margin-top: 2px;
+    background-color: #FF8C00;
+    color: #ffff;
+    text-align: center;
+
+
+}
+
+.bienvenida h3{
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+.bienvenida p{
+    font-size: 16px;
+    padding-bottom: 35px;
+    line-height: 1.7em;
+    max-width: 370px;
+    margin: 0 auto;
+}
+
+/*FIN DE SECCION DE BIENVENIDA*/
+
+/*EQUIPO*/
+
+.equipo{
+    padding-bottom: 80px;
+}
+.equipo > .contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.foto-equipo{
+    width: 100%;
+    max-width: 500px;
+
+}
+
+.foto-equipo img{
+    width: 100%;
+
+}
+
+.conocenos{
+    text-align: center;
+    padding: 15px 0px;
+    max-width: 500px;
+
+}
+
+.conocenos p:nth-child(1){
+    font-size: 14px;
+    color: #3c1c22;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 1 px solid #a2a2a2;
+
+}
+
+.conocenos h3{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    color:#ffff00 ;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.conocenos p:nth-child(3){
+    font-size: 14px;
+    color: #3c1c22;
+    padding-bottom: 25px;
+}
+
+.conocenos p:nth-child(4){
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: #000;
+}
+
+.conocenos a{
+    font-size: 15px;
+    color: #0e96dd;
+}
+@media all and (min-width:769px){
+    .equipo{
+        padding-top: 80px;
+    }
+    .foto-equipo{
+        padding-right: 30px;
+    }
+    .conocenos{
+        padding-left: 30px;
+        text-align: left;
+    }
+}
+
+
+
+/*  FINAL DE EQUIPO*/
+
+/*INICIO DE FOOTER*/
+.top-footer{
+    background-color: #20B2AA;
+    height: 25px;
+}
+
+.center-footer{
+    background-color:#008080
+    ;
+}
+
+.center-footer .contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.center-footer .widget{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 35px;
+    columns: #7a7a7a;
+
+    max-width: 270px;
+    margin: 0 auto;
+}
+
+.center-footer .widget h4{
+    padding-bottom:35px ;
+    font-size: 18px;
+}
+
+.bottom-footer{
+    background-color: #20B2AA;
+    height: 25px;
+}
+
+.bottom-footer p{
+    color: #000 ;
+    font-size: 12px;
+    text-align: center;
+}
+
+/*
